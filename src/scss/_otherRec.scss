@@ -1,0 +1,66 @@
+.search-recipe-combo-container {
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  .search-area {
+    margin-top: 30px;
+
+    input[type="text"] {
+      width: 100%;
+      background: transparent;
+      font-size: 2rem;
+      border: none;
+      border-bottom: 2px solid grey;
+      margin-bottom: 20px;
+      font-weight: 100;
+      color: black;
+    }
+  }
+  .search-bar-contain {
+    margin: 0 100px;
+
+    .recipeCardContain {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .recipeCard {
+      margin-top: 60px;
+      height: 370px;
+      width: 255px;
+      box-shadow: 10px 10px 105px -41px rgba(0, 0, 0, 0.65);
+      transition: all 0.4s;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 10px 10px 105px 15px rgba(0, 0, 0, 0.65);
+      }
+      .recipeImg {
+        width: 100%;
+        height: 185px;
+      }
+
+      .recipeInfo {
+        height: 185px;
+        width: 100%;
+
+
+        h2 {
+          text-align: center;
+          font-weight: 500;
+          font-size: 1rem;
+        }
+
+        .metaRecInfo {
+          margin-left: 20px;
+          h5 {
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1px;
+            margin: 20px auto;
+          }
+        }
+      }
+    }
+  }
+}

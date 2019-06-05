@@ -1,0 +1,23 @@
+.my-form {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .inputs {
+    .height {
+      width: 330px;
+    }
+    label {
+        text-align: center;
+        margin-top: 10px;
+    }
+  }
+  .gender{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .buttons{
+      text-align: center;
+  }
+}

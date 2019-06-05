@@ -1,0 +1,71 @@
+.recipeContent-contain {
+  width: 100%;
+  .rec-title {
+    font-size: 3rem;
+  }
+  .recipeContent {
+    display: flex;
+    justify-content: space-around;
+    .fitness-goals {
+      height: 450px;
+      width: 300px;
+      box-shadow: 10px 10px 105px -41px rgba(0, 0, 0, 0.65);
+      transition: all 0.4s;
+      cursor: pointer;
+
+      .fit-img {
+        width: 100%;
+        height: 70%;
+      }
+
+      .fit-lose {
+        background: url("../img/lose-weight.jpg") no-repeat center center;
+      }
+      .fit-maintain {
+        background: url("../img/maintain-weight.jpg") no-repeat center center;
+      }
+      .fit-gain {
+        background: url("../img/gain-weight.jpg") no-repeat center center;
+      }
+
+      .fit-title {
+        width: 100%;
+        height: 30%;
+        h4{
+          margin-bottom: 14px;
+        }
+      }
+
+      &:hover {
+        box-shadow: 10px 10px 105px 15px rgba(0, 0, 0, 0.65);
+      }
+
+      .click-here{
+
+          padding: 10px 0;
+          border: 2px white solid;
+          background: white;
+          cursor: pointer;
+          font-size: 12px;
+          text-transform: uppercase;
+          transition: color 0.4s, background-color 0.4s;
+          border-radius: 15px;
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 1em;
+          outline: none;
+          text-align: center;
+          text-decoration: none;
+          user-select: none;
+          width: 100px;
+          &:hover,
+          &:focus {
+            transition: color 0.4s, background-color 0.4s;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(116, 116, 116);
+        }
+      }
+    }
+  }
+}
