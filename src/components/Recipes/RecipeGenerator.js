@@ -35,7 +35,7 @@ class RecipeGenerator extends React.Component {
           </div>
         );
       } catch {
-       return  console.log("error");
+       return  console.log(" ");
       }
     });
   };
